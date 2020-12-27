@@ -1,0 +1,42 @@
+Üçünçü taraf kitaplıkları getirmek için 
+
+    go get github.com/mattn/go-sqlite3
+
+indirilen paketi kullanmak için 
+
+    import (
+        "github.com/mattn/go-sqlite3"
+    )
+
+Paketin alındığı klasör 
+
+    $GOPATH/src/github.com/mattn/go-sqlite3
+
+Paketleri Tekil ve Toplu Güncelleme
+
+    go get -u :  paketler güncellenir (veya 
+    go get -u FULL_PACKAGE_NAME belirli bir paketi günceller
+
+Interfaces:
+
+func add(a interface{}, b interface{}) interface{} {
+    ...
+}
+
+Bir arayüz değişkenini açık bir tipe dönüştürmek için
+.(TYPE)
+
+retun a.(int) + b.(int)
+
+switch a.(type){
+    case int:
+        fmtm.Printf("a is now an int and equals %d\n", a)
+    }case bool, string:
+        // ...
+    default:
+        // ...
+}
+
+
+
+
