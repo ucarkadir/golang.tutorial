@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"tutorial.ground/arrays"
+	"tutorial.ground/bufferedchannels"
 	"tutorial.ground/concurrencies"
 	"tutorial.ground/constructors"
 	"tutorial.ground/fieldsofastructures"
@@ -17,6 +18,10 @@ import (
 )
 
 func main() {
+
+	// Buffered Channels Tamponlu Kanallar
+	bufferedchannels.SelectMethod() // Select
+	bufferedchannels.RandonNumber() // Buffered Channels
 
 	// Concurrencie - eş zamanlılık
 	concurrencies.GoRoutineMutex()
